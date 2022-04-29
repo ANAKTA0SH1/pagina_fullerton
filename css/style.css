@@ -561,13 +561,22 @@
 
 /*Estilo del texto*/
 
+
+/*Texto izquierdo*/
 #titulo-1{
+font-family: "Paytone One";
 text-align:right;
 padding-right:50px;
+color: #414141;
+
 
 }
 
+/*Texto derecho*/
 #titulo-2{
+
+font-family: "roboto",sans-serif;
+color: #414141;
 float:left;
 text-align:left;
 padding-left:30px;
@@ -698,6 +707,7 @@ padding-bottom: 5px;
 }
 .col-md-6.description p{
   text-align: left;
+  color: #414141;
 }
 .col-md-6.description a.btn{
   font-family: 'Paytone One';
@@ -802,27 +812,40 @@ font-size: 32px ;
   color:#414141;
   background: #F9C32D;
   border:transparent;
-  font-size: 20px;
+  font-size: 14px;
+
+  height: 35.2px;
+  width: 80px;
+
 }
 /*Estilo del formulario correo*/
 .correo{
-  font-size: 20px;
+  font-size: 13px;
+  height: 36px;
+  width: 200px;
 }
 
-/*Estilo para el texto de informacion de la pagina*/
+
 /*Estilos para el feet de la pagina*/
+
+/*Estilo de Fondo*/
 .rowfeet{
   display: flex;
   justify-content: space-between;
-  background: #1c1c1c;
+  background: #252628;
   color: #f1f1f1;
+  height: 39px;
 }
-
+/*Estilo Texto izquierdo*/
 .col-md-6.feet1{
   display: flex;
-  padding-left: 50px;
+  padding-top: 10px;
+  padding-left: 150px;
 }
+
+/*Estilo del Texto derecho*/
 .col-md-6.feet2{
   display: flex;
-  padding-right: 50px;
+  padding-top: 10px;
+  padding-right: 150px;
 }
